@@ -17,6 +17,7 @@ local_testing = False
 start_time = time.time()
 red_text = "\033[91m"
 green_text = "\033[92m"
+yellow_text = "\033[93m"
 normal_text = "\033[0m"
 
 
@@ -125,9 +126,13 @@ for product in product_obj_list:
         existing_products[name] = product
 
 if not at_least_one_updated:
-    print(f"{red_text}No new data for existing products was found in the scrape.{normal_text}")
+    print(f"{yellow_text}No new data for existing products was found in the scrape.{normal_text}")
+else:
+    print(f"{green_text}Updated data for existing products successfully.{normal_text}")
 if not at_least_one_created:
-    print(f"{red_text}No new products were found in the scrape.{normal_text}")
+    print(f"{yellow_text}No new products were found in the scrape.{normal_text}")
+else:
+    print(f"{green_text}New products successfully added to the data.{normal_text}")
 # Convert the dictionary back to a list
 updated_product_list = list(existing_products.values())
 
