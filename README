@@ -1,0 +1,1 @@
+need serviceAccountKey.json in secrets/ in order to connect to firestore

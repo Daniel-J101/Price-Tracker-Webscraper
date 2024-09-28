@@ -82,3 +82,6 @@ celerybeat.pid
 
 # Unit test / coverage reports
 .pytest_cache/
+
+#Sensitive data
+secrets/
