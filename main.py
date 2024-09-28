@@ -1,11 +1,13 @@
 import requests
 from bs4 import BeautifulSoup
-import product
+
+class Product:
+    name=""
+    price=""
+    stock=""
 
 
-
-
-url = "https://www.microcenter.com/search/search_results.aspx?N=4294966995&rd=1&vkw=cpu"
+url = "https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966995&myStore=false&storeID=155"
 response = requests.get(url)
 
 # Parse  HTML content
@@ -16,19 +18,28 @@ className = "standardDiscount"
 # Extract specific data
 # print("finish", soup)
 titles = soup.find_all('h1')
-discount_list = soup.find_all("div", {"class": className})
-
-product_objs = []
 
 
-productWrapper = "product_wrapper"
-product_list = soup.find_all("li", {"class": productWrapper})
+product_list = []
+for i in range(3):
+    product_list.append(soup.find("li", {"id": f"pwrapper_{i}"}))
+
+# print(product_list[0].find("div", {"class": "pDescription compressedNormal2"}).find("a")['data-name'])
+
+
+product_obj_list = []
+
+
 for product in product_list:
-    for description in product.find_all("div", {"class": "result_right"}):
-        for detail in description.find_all("div", {"class": "details"}):
-            for price in detail.find_all("div", {"class": "price_wrapper"}):
-                for priceClass in 
-                print(price)
+    product_obj = Product()
+    product_obj.name = product.find("div", {"class": "pDescription compressedNormal2"}).find("a")['data-name']
+    print(product_obj.name)
+    product_obj.price = product.find("div", {"class": "pDescription compressedNormal2"}).find("a")['data-price']
+    product_obj.stock = product.find("span", {"class": "msgInStock"}).text
+    try:
+        product_obj.stock = product.find("span", {"class": "msgInStock"}).text
+    except:
+        product_obj.stock = "OUT OF STOCK"
 
-# for discount in discount_list:
-    # print(discount.text)
+    product_obj_list.append(product_obj)
+
