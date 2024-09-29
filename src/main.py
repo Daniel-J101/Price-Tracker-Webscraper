@@ -15,7 +15,7 @@ print("Script started!")
 
 ############ Global Variables ############
 #set this to True when you want the JSON to be read and written locally
-local_testing = False
+local_testing = True
 red_text = "\033[91m"
 green_text = "\033[92m"
 yellow_text = "\033[93m"
@@ -36,7 +36,8 @@ def scrape_and_store(request):
     db = None
     try:
         # creds = service_account.Credentials.from_service_account_file(service_account_path)
-        db = firestore.Client() #credentials = creds if local
+        if not local_testing:
+            db = firestore.Client() #credentials = creds if local
     except Exception as e:
         print(f"{red_text}Failed to connect to the cloud storage. {normal_text}")
         return f"Failed to connect to the cloud storage. {e}", 500
@@ -142,6 +143,7 @@ def scrape_and_store(request):
 
     ############ Use the Updated Data ############
     if local_testing:
+        
         # Write the updated data back to a local JSON file
         with open(json_file_path, 'w') as file:
             json.dump(updated_product_list, file, indent=4)
@@ -192,3 +194,7 @@ def scrape_and_store(request):
 #         "link": "https://www.microcenter.com/product/674502/amd-ryzen-7-7700x-raphael-am5-45ghz-8-core-boxed-processor-heatsink-not-included"
 #     }
 # ]
+
+
+if local_testing:
+    scrape_and_store(None)

@@ -43,5 +43,278 @@
         "price_change": "N/A",
         "link": "https://www.microcenter.com/product/674502/amd-ryzen-7-7700x-raphael-am5-45ghz-8-core-boxed-processor-heatsink-not-included",
         "id": "0_DdCriWRe2VcTEmszmGVA"
+    },
+    {
+        "name": "Ryzen 5 7600X3D Raphael AM5 4.1GHz 6-Core Boxed Processor - Heatsink Not Included",
+        "prices": [
+            {
+                "amount": 299.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "25+ IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/684484/amd-ryzen-5-7600x3d-raphael-am5-41ghz-6-core-boxed-processor-heatsink-not-included",
+        "id": "oWc6BEGXR5StwUIJfEUATw"
+    },
+    {
+        "name": "Ryzen 5 7600X Raphael AM5 4.7GHz 6-Core Boxed Processor - Heatsink Not Included",
+        "prices": [
+            {
+                "amount": 189.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "25+ IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/674522/amd-ryzen-5-7600x-raphael-am5-47ghz-6-core-boxed-processor-heatsink-not-included",
+        "id": "TNaWWqgzQ4O0s_NJL_e4bQ"
+    },
+    {
+        "name": "Core i9-12900K Alder Lake 3.2GHz Sixteen-Core LGA 1700 Boxed Processor - Heatsink Not Included",
+        "prices": [
+            {
+                "amount": 279.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "25+ IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/641915/intel-core-i9-12900k-alder-lake-32ghz-sixteen-core-lga-1700-boxed-processor-heatsink-not-included",
+        "id": "NBits-VZRZeZpcYCSnmzwQ"
+    },
+    {
+        "name": "Core i7-14700K Raptor Lake 3.4GHz Twenty-Core LGA 1700 Boxed Processor - Heatsink Not Included",
+        "prices": [
+            {
+                "amount": 359.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "25+ IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/670842/intel-core-i7-14700k-raptor-lake-34ghz-twenty-core-lga-1700-boxed-processor-heatsink-not-included",
+        "id": "ctQFRlkPTB2Pg8hoGAhfMQ"
+    },
+    {
+        "name": "Ryzen 7 5700X3D Vermeer AM4 3.0GHz 8-Core Boxed Processor - Heatsink Not Included",
+        "prices": [
+            {
+                "amount": 179.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "25+ IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/676051/amd-ryzen-7-5700x3d-vermeer-am4-30ghz-8-core-boxed-processor-heatsink-not-included",
+        "id": "xa05_SUZT2KVh_RrK3nydw"
+    },
+    {
+        "name": "Ryzen 7 9700X Granite Ridge AM5 3.80GHz 8-Core Boxed Processor - Heatsink Not Included",
+        "prices": [
+            {
+                "amount": 319.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "25+ IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/682199/amd-ryzen-7-9700x-granite-ridge-am5-380ghz-8-core-boxed-processor-heatsink-not-included",
+        "id": "PFTwhTrRSZKyg9CoIMND_A"
+    },
+    {
+        "name": "Core i7-12700K Alder Lake 3.6GHz Twelve-Core LGA 1700 Boxed Processor - Heatsink Not Included",
+        "prices": [
+            {
+                "amount": 209.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "25+ IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/641917/intel-core-i7-12700k-alder-lake-36ghz-twelve-core-lga-1700-boxed-processor-heatsink-not-included",
+        "id": "NjQ6eeR_Rx-N1gif7rX5ZA"
+    },
+    {
+        "name": "Core i5-12600KF Alder Lake 3.7GHz Ten-Core LGA 1700 Boxed Processor - Heatsink Not Included",
+        "prices": [
+            {
+                "amount": 139.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "25+ IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/677153/intel-core-i5-12600kf-alder-lake-37ghz-ten-core-lga-1700-boxed-processor-heatsink-not-included",
+        "id": "hlENzK3qRziQCUAhXa12Dg"
+    },
+    {
+        "name": "Core i9-14900K Raptor Lake 3.2GHz Twenty Four-Core LGA 1700 Boxed Processor - Heatsink Not Included",
+        "prices": [
+            {
+                "amount": 499.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "25+ IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/670841/intel-core-i9-14900k-raptor-lake-32ghz-twenty-four-core-lga-1700-boxed-processor-heatsink-not-included",
+        "id": "UQ958uzeRKOE2U_eBuoPfA"
+    },
+    {
+        "name": "Ryzen 5 5600X Vermeer 3.7GHz 6-Core AM4 Boxed Processor - Wraith Stealth Cooler Included",
+        "prices": [
+            {
+                "amount": 114.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "10 IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/674505/amd-ryzen-5-5600x-vermeer-37ghz-6-core-am4-boxed-processor-wraith-stealth-cooler-included",
+        "id": "GO-hfvmTSUmeCBn8aKq1cA"
+    },
+    {
+        "name": "Ryzen 7 5800X Vermeer 3.8GHz 8-Core AM4 Boxed Processor - Heatsink Not Included",
+        "prices": [
+            {
+                "amount": 154.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "17 IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/674509/amd-ryzen-7-5800x-vermeer-38ghz-8-core-am4-boxed-processor-heatsink-not-included",
+        "id": "sGTGjaUiS8WwxZX6GgG7MA"
+    },
+    {
+        "name": "Ryzen 5 5500 Cezanne 3.6GHz 6-Core AM4 Boxed Processor - Wraith Stealth Cooler Included",
+        "prices": [
+            {
+                "amount": 69.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "19 IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/674520/amd-ryzen-5-5500-cezanne-36ghz-6-core-am4-boxed-processor-wraith-stealth-cooler-included",
+        "id": "sQa9ciEbRLe9xET_OZ-qCg"
+    },
+    {
+        "name": "Ryzen 9 9950X Granite Ridge AM5 4.30GHz 16-Core Boxed Processor - Heatsink Not Included",
+        "prices": [
+            {
+                "amount": 599.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "25+ IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/682197/amd-ryzen-9-9950x-granite-ridge-am5-430ghz-16-core-boxed-processor-heatsink-not-included",
+        "id": "Q-m7HVUST16ElhUrA0w-vw"
+    },
+    {
+        "name": "Ryzen 5 5600 Vermeer 3.5GHz 6-Core AM4 Boxed Processor - Wraith Stealth Cooler Included",
+        "prices": [
+            {
+                "amount": 104.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "15 IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/674510/amd-ryzen-5-5600-vermeer-35ghz-6-core-am4-boxed-processor-wraith-stealth-cooler-included",
+        "id": "-xJjICcaToi6NbDe10cndA"
+    },
+    {
+        "name": "Ryzen 9 5950X Vermeer 3.4GHz 16-Core AM4 Boxed Processor - Heatsink Not Included",
+        "prices": [
+            {
+                "amount": 329.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "9 IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/674524/amd-ryzen-9-5950x-vermeer-34ghz-16-core-am4-boxed-processor-heatsink-not-included",
+        "id": "-IrGuVIXThmvPEFd-7WDJA"
+    },
+    {
+        "name": "Ryzen 5 7600 Raphael AM5 3.8GHz 6-Core Boxed Processor - Wraith Stealth Cooler Included",
+        "prices": [
+            {
+                "amount": 169.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "3 IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/674517/amd-ryzen-5-7600-raphael-am5-38ghz-6-core-boxed-processor-wraith-stealth-cooler-included",
+        "id": "ixXlq9yOTU-K_t5qFVVOdw"
+    },
+    {
+        "name": "Ryzen 9 5900X Vermeer 3.7GHz 12-Core AM4 Boxed Processor - Heatsink Not Included",
+        "prices": [
+            {
+                "amount": 219.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "7 IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/674521/amd-ryzen-9-5900x-vermeer-37ghz-12-core-am4-boxed-processor-heatsink-not-included",
+        "id": "RNapksxwRPiYI7efZLCVlg"
+    },
+    {
+        "name": "Ryzen 5 4500 Renoir 3.6GHz 6-Core AM4 Boxed Processor - Wraith Stealth Cooler Included",
+        "prices": [
+            {
+                "amount": 59.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "9 IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/674525/amd-ryzen-5-4500-renoir-36ghz-6-core-am4-boxed-processor-wraith-stealth-cooler-included",
+        "id": "tkIbiCVzSj--J86ATVC22g"
+    },
+    {
+        "name": "Ryzen 5 5500GT Cezanne AM4 3.7GHz 6-Core Boxed Processor - Wraith Stealth Cooler Included",
+        "prices": [
+            {
+                "amount": 94.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "1 IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/676054/amd-ryzen-5-5500gt-cezanne-am4-37ghz-6-core-boxed-processor-wraith-stealth-cooler-included",
+        "id": "8sQkAbs0QEmVDeTMT_Ktow"
+    },
+    {
+        "name": "Ryzen 9 7900X Raphael AM5 4.7GHz 12-Core Boxed Processor - Heatsink Not Included",
+        "prices": [
+            {
+                "amount": 299.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "4 IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/674504/amd-ryzen-9-7900x-raphael-am5-47ghz-12-core-boxed-processor-heatsink-not-included",
+        "id": "0tYW4vt-QEiB0vfPw3Y3pA"
+    },
+    {
+        "name": "Core i9-14900KS Raptor Lake 3.2GHz Twenty Four-Core LGA 1700 Boxed Processor - Heatsink Not Included",
+        "prices": [
+            {
+                "amount": 599.99,
+                "timestamp": "2024-09-29 16:05"
+            }
+        ],
+        "stock": "6 IN STOCK",
+        "price_change": "N/A",
+        "link": "https://www.microcenter.com/product/678679/intel-core-i9-14900ks-raptor-lake-32ghz-twenty-four-core-lga-1700-boxed-processor-heatsink-not-included",
+        "id": "pBQyTIfqSfywnSIn3al1og"
     }
 ]
