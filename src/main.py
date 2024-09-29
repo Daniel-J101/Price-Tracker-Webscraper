@@ -45,7 +45,7 @@ response = requests.get(url)
 soup = BeautifulSoup(response.text, "html.parser")
 
 scraped_product_list = []
-for i in range(3):
+for i in range(24):
     scraped_product_list.append(soup.find("li", {"id": f"pwrapper_{i}"}))
 
 
@@ -93,7 +93,7 @@ else:
 at_least_one_updated = False
 at_least_one_created = False
 for product in product_obj_list:
-    #extrat data from the object
+    #extract data from the object
     name = product['name']
     price_data = product['prices'][0]
     stock = product['stock']
