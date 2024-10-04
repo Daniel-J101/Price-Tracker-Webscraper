@@ -15,11 +15,12 @@ print("Script started!")
 
 ############ Global Variables ############
 #set this to True when you want the JSON to be read and written locally
-local_testing = True
+local_testing = False
 red_text = "\033[91m"
 green_text = "\033[92m"
 yellow_text = "\033[93m"
 normal_text = "\033[0m"
+
 
 #helper used to identify products when sent to cloud storage
 def create_uuid():
@@ -108,7 +109,7 @@ def scrape_and_store(request):
             #the price has changed
             if existing_products[name]['prices'][-1]['amount'] != price_data['amount']:
                 at_least_one_updated = True
-                print(f"Found updated data for {name}!")
+                print(f"Found updated data for {name}! Old price was {existing_products[name]['prices'][-1]['amount']} and new price is {price_data['amount']}")
                 
                 #added to the array of prices
                 existing_products[name]['prices'].append(price_data)
